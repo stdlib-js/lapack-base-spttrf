@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import spttrf from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-spttrf@esm/index.mjs';
+import spttrf from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-spttrf@v0.1.0-esm/index.mjs';
 ```
 
 #### spttrf( N, D, E )
@@ -159,7 +159,7 @@ spttrf.ndarray( 3, D, 1, 1, E, 1, 1 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import spttrf from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-spttrf@esm/index.mjs';
+import spttrf from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-spttrf@v0.1.0-esm/index.mjs';
 
 var opts = {
     'dtype': 'float32'
