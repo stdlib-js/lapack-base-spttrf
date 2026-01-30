@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import spttrf from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-spttrf@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/lapack-base-spttrf/tags). For example,
+
+```javascript
 import spttrf from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-spttrf@v0.1.0-esm/index.mjs';
 ```
 
@@ -159,7 +164,7 @@ spttrf.ndarray( 3, D, 1, 1, E, 1, 1 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import spttrf from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-spttrf@v0.1.0-esm/index.mjs';
+import spttrf from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-spttrf@esm/index.mjs';
 
 var opts = {
     'dtype': 'float32'
