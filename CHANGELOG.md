@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-02-23)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`cbd1066`](https://github.com/stdlib-js/stdlib/commit/cbd1066cbd4df6dcb9e699d2fdd94d3447db9e8a) - **bench:** refactor to use string interpolation in `lapack/base/spttrf` [(#10126)](https://github.com/stdlib-js/stdlib/pull/10126) _(by Prajjwal Bajpai)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Prajjwal Bajpai
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.1.1">
 
 ## 0.1.1 (2026-02-08)
